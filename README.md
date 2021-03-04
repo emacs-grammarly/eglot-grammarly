@@ -9,27 +9,18 @@
 
 ## Quickstart
 
+First install the language server using NPM.
+
+```
+$ npm install -g unofficial-grammarly-language-server-2
+```
+
 ```el
 (use-package eglot-grammarly
   :ensure t
   :hook (text-mode . (lambda ()
-                       (require eglot-grammarly)
-                       (lsp))))  ; or lsp-deferred
+                       (require eglot-grammarly))))
 ```
-
-## Configuration
-
-`eglot-grammarly` supports following configuration. Each configuration is described in
-detail in [Grammarly Settings](https://github.com/znck/grammarly#extension-settings).
-
-* `grammarly.autoActivate` via `lsp-grammarly-auto-activate`
-* `grammarly.audience` via `lsp-grammarly-audience`
-* `grammarly.dialect` via `lsp-grammarly-dialect`
-* `grammarly.domain` via `lsp-grammarly-domain`
-* `grammarly.emotions` via `lsp-grammarly-emotions`
-* `grammarly.goals` via `lsp-grammarly-goals`
-* `grammarly.userWords` via `lsp-grammarly-user-words`
-* `grammarly.overrides` via `lsp-grammarly-override`
 
 ## Contribution
 
