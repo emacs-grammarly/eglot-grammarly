@@ -10,16 +10,16 @@
 ## Quickstart
 
 ```el
-(use-package lsp-grammarly
+(use-package eglot-grammarly
   :ensure t
   :hook (text-mode . (lambda ()
-                       (require 'lsp-grammarly)
+                       (require eglot-grammarly)
                        (lsp))))  ; or lsp-deferred
 ```
 
 ## Configuration
 
-`lsp-grammarly` supports following configuration. Each configuration is described in
+`eglot-grammarly` supports following configuration. Each configuration is described in
 detail in [Grammarly Settings](https://github.com/znck/grammarly#extension-settings).
 
 * `grammarly.autoActivate` via `lsp-grammarly-auto-activate`
