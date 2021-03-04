@@ -6,7 +6,7 @@
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; Description: Eglot Clients for Grammarly
 ;; Keyword: eglot grammarly checker
-;; Version: 0.0.1
+;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3") (eglot "1.4"))
 ;; URL: https://github.com/emacs-grammarly/eglot-grammarly
 
