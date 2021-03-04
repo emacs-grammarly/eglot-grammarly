@@ -41,5 +41,17 @@ Link: https://github.com/znck/grammarly"
   :group 'eglot
   :link '(url-link "https://github.com/emacs-grammarly/eglot-grammarly"))
 
+(defcustom eglot-grammarly-modes '(text-mode latex-mode org-mode markdown-mode)
+  "List of major mode that work with Grammarly."
+  :type 'list
+  :group 'eglot-grammarly)
+
+(defun eglot-grammarly--server-command ()
+  ""
+  (list "foo-language-server" "--stdio"))
+
+(add-to-list 'eglot-server-programs
+             `(,eglot-grammarly-modes . ,(eglot-grammarly--server-command)))
+
 (provide 'eglot-grammarly)
 ;;; eglot-grammarly.el ends here
