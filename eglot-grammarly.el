@@ -47,8 +47,8 @@ Link: https://github.com/znck/grammarly"
   :group 'eglot-grammarly)
 
 (defun eglot-grammarly--server-command ()
-  ""
-  (list "foo-language-server" "--stdio"))
+  "Generate startup command for Grammarly language server."
+  (list "unofficial-grammarly-language-server-2" "--stdio"))
 
 (add-to-list 'eglot-server-programs
              `(,eglot-grammarly-modes . ,(eglot-grammarly--server-command)))
