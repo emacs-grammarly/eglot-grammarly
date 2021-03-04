@@ -9,11 +9,15 @@
 
 ## Quickstart
 
+#### Step 1.
+
 First install the language server using NPM.
 
 ```
 $ npm install -g unofficial-grammarly-language-server-2
 ```
+
+#### Step 2.
 
 ```el
 (use-package eglot-grammarly
