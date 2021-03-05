@@ -13,8 +13,8 @@
 
 First install the language server using NPM.
 
-```
-$ npm install -g unofficial-grammarly-language-server-2
+```sh
+npm install -g unofficial-grammarly-language-server-2
 ```
 
 #### Step 2.
@@ -23,7 +23,7 @@ $ npm install -g unofficial-grammarly-language-server-2
 (use-package eglot-grammarly
   :ensure t
   :hook (text-mode . (lambda ()
-                       (require eglot-grammarly))))
+                       (require 'eglot-grammarly))))
 ```
 
 ## Contribution
