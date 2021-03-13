@@ -14,7 +14,7 @@
 First install the language server using NPM.
 
 ```sh
-npm install -g unofficial-grammarly-language-server-2
+npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 ```
 
 #### Step 2.
