@@ -9,7 +9,7 @@
 
 ## :floppy_disk: Quickstart
 
-### :mag: Step 1.
+### :mag: Step 1. Install `Grammarly` language server through `NPM`
 
 First install the language server using NPM.
 
@@ -39,6 +39,8 @@ Create `.dir-locals.el` file in the the project root directory.
    . ((@emacs-grammarly/unofficial-grammarly-language-server
        . ((audience . "knowledgeable")))))))
 ```
+
+See all possible configuration [here](https://github.com/znck/grammarly#extension-settings).
 
 ## Contribution
 
