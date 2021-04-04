@@ -7,7 +7,7 @@
 
 ![](./etc/screenshot.png)
 
-## Quickstart
+## :floppy_disk: Quickstart
 
 #### Step 1.
 
@@ -24,6 +24,14 @@ npm install -g @emacs-grammarly/unofficial-grammarly-language-server
   :ensure t
   :hook (text-mode . (lambda ()
                        (require 'eglot-grammarly))))
+```
+
+## :wrench: Configuration
+
+Create `.dir-locals.el` file in the the project root directory.
+
+```el
+((nil (eglot-workspace-configuration . ((grammarly . ((audience . "knowledgeable")))))))
 ```
 
 ## Contribution
