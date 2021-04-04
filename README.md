@@ -17,7 +17,7 @@ First, install the language server using NPM.
 npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 ```
 
-### :mag: Step 2. Add configuration
+### :mag: Step 2. Configure your Emacs configuration
 
 Consider adding this to your configuration.
 
