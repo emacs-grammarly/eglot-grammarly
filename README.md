@@ -11,13 +11,13 @@
 
 ### :mag: Step 1. Install `Grammarly` language server through `NPM`
 
-First install the language server using NPM.
+First, install the language server using NPM.
 
 ```sh
 npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 ```
 
-### :mag: Step 2.
+### :mag: Step 2. Add configuration
 
 Consider adding this to your configuration.
 
