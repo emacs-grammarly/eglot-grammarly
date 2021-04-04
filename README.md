@@ -9,7 +9,7 @@
 
 ## :floppy_disk: Quickstart
 
-#### :mag: Step 1.
+### :mag: Step 1.
 
 First install the language server using NPM.
 
@@ -17,7 +17,7 @@ First install the language server using NPM.
 npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 ```
 
-#### :mag: Step 2.
+### :mag: Step 2.
 
 Consider adding this to your configuration.
 
