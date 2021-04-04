@@ -19,11 +19,14 @@ npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 
 #### Step 2.
 
+Consider adding this to your configuration.
+
 ```el
 (use-package eglot-grammarly
   :ensure t
   :hook (text-mode . (lambda ()
-                       (require 'eglot-grammarly))))
+                       (require 'eglot-grammarly)
+                       (call-interactively #'eglot))))
 ```
 
 ## :wrench: Configuration
@@ -31,7 +34,10 @@ npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 Create `.dir-locals.el` file in the the project root directory.
 
 ```el
-((nil (eglot-workspace-configuration . ((grammarly . ((audience . "knowledgeable")))))))
+((nil
+  (eglot-workspace-configuration
+   . ((@emacs-grammarly/unofficial-grammarly-language-server
+       . ((audience . "knowledgeable")))))))
 ```
 
 ## Contribution
