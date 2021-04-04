@@ -40,7 +40,7 @@ Create `.dir-locals.el` file in the the project root directory.
        . ((audience . "knowledgeable")))))))
 ```
 
-See all possible configuration [here](https://github.com/znck/grammarly#extension-settings).
+*P.S. See all possible configuration [here](https://github.com/znck/grammarly#extension-settings).*
 
 ## Contribution
 
