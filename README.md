@@ -8,9 +8,9 @@
 
 ![](./etc/screenshot.png)
 
-## :floppy_disk: Quickstart
+## 💾 Quickstart
 
-### :mag: Step 1. Install `Grammarly` language server through `NPM`
+### 🔍 Step 1. Install `Grammarly` language server through `NPM`
 
 First, install the language server using NPM.
 
@@ -18,7 +18,7 @@ First, install the language server using NPM.
 npm install -g @emacs-grammarly/unofficial-grammarly-language-server
 ```
 
-### :mag: Step 2. Configure your Emacs configuration
+### 🔍 Step 2. Configure your Emacs configuration
 
 Consider adding this to your configuration.
 
@@ -30,7 +30,7 @@ Consider adding this to your configuration.
                        (call-interactively #'eglot))))
 ```
 
-## :wrench: Configuration
+## 🔧 Configuration
 
 Create `.dir-locals.el` file in the the project root directory.
 
