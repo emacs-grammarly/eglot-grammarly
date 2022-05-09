@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/emacs-grammarly/eglot-grammarly/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-grammarly/eglot-grammarly/actions/workflows/test.yml)
 
-`eglot` client leveraging [unofficial-grammarly-language-server](https://github.com/znck/grammarly).
+`eglot` client leveraging [grammarly-language-server](https://github.com/znck/grammarly).
 
 ![](./etc/screenshot.png)
 
@@ -15,7 +15,7 @@
 First, install the language server using NPM.
 
 ```sh
-npm install -g @emacs-grammarly/unofficial-grammarly-language-server
+npm install -g @emacs-grammarly/grammarly-languageserver
 ```
 
 ### 🔍 Step 2. Configure your Emacs configuration
@@ -37,7 +37,7 @@ Create `.dir-locals.el` file in the the project root directory.
 ```el
 ((nil
   (eglot-workspace-configuration
-   . ((@emacs-grammarly/unofficial-grammarly-language-server
+   . ((@emacs-grammarly/grammarly-languageserver
        . ((audience . "knowledgeable")))))))
 ```
 

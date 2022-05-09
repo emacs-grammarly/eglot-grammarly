@@ -49,7 +49,7 @@ Link: https://github.com/znck/grammarly"
 
 (defun eglot-grammarly--server-command ()
   "Generate startup command for Grammarly language server."
-  (list "@emacs-grammarly/unofficial-grammarly-language-server" "--stdio"))
+  (list "@emacs-grammarly/grammarly-languageserver" "--stdio"))
 
 (add-to-list 'eglot-server-programs
              `(,eglot-grammarly-active-modes . ,(eglot-grammarly--server-command)))
