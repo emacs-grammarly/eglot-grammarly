@@ -4,11 +4,10 @@
 ;; Created date 2021-03-04 11:34:54
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
-;; Description: Eglot Clients for Grammarly
-;; Keyword: eglot grammarly checker
+;; URL: https://github.com/emacs-grammarly/eglot-grammarly
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3") (eglot "1.4"))
-;; URL: https://github.com/emacs-grammarly/eglot-grammarly
+;; Keywords: eglot grammarly checker
 
 ;; This file is NOT part of GNU Emacs.
 

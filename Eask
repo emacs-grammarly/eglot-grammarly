@@ -2,6 +2,9 @@
          "0.1.0"
          "Eglot Clients for Grammarly")
 
+(website-url "https://github.com/emacs-grammarly/eglot-grammarly")
+(keywords "eglot" "grammarly" "checker")
+
 (package-file "eglot-grammarly.el")
 
 (source "gnu")
