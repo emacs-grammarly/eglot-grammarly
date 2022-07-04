@@ -3,7 +3,7 @@
          "Eglot Clients for Grammarly")
 
 (website-url "https://github.com/emacs-grammarly/eglot-grammarly")
-(keywords "eglot" "grammarly" "checker")
+(keywords "convenience" "eglot" "grammarly" "checker")
 
 (package-file "eglot-grammarly.el")
 
