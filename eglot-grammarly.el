@@ -7,7 +7,7 @@
 ;; URL: https://github.com/emacs-grammarly/eglot-grammarly
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "24.3") (eglot "1.4"))
-;; Keywords: eglot grammarly checker
+;; Keywords: convenience eglot grammarly checker
 
 ;; This file is NOT part of GNU Emacs.
 
