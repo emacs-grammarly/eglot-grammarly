@@ -56,9 +56,12 @@ Link: https://github.com/znck/grammarly"
 (defclass eglot-grammarly-server (eglot-lsp-server) ()
   :documentation "A custom class for grammarly langserver.")
 
+(defconst eglot-grammarly-client-id "client_BaDkMgx4X19X9UxxYRCXZo"
+  "Client ID is required for language server's activation.")
+
 (cl-defmethod eglot-initialization-options ((server eglot-grammarly-server))
   "Passes through required grammarly initialization options"
-    (list :clientId "client_BaDkMgx4X19X9UxxYRCXZo"))
+    (list :clientId eglot-grammarly-client-id))
 
 (provide 'eglot-grammarly)
 ;;; eglot-grammarly.el ends here
