@@ -48,10 +48,17 @@ Link: https://github.com/znck/grammarly"
 
 (defun eglot-grammarly--server-command ()
   "Generate startup command for Grammarly language server."
-  (list "@emacs-grammarly/grammarly-languageserver" "--stdio"))
+  (list 'eglot-grammarly-server "grammarly-languageserver" "--stdio"))
 
 (add-to-list 'eglot-server-programs
              `(,eglot-grammarly-active-modes . ,(eglot-grammarly--server-command)))
+
+(defclass eglot-grammarly-server (eglot-lsp-server) ()
+  :documentation "A custom class for grammarly langserver.")
+
+(cl-defmethod eglot-initialization-options ((server eglot-grammarly-server))
+  "Passes through required grammarly initialization options"
+    (list :clientId "client_BaDkMgx4X19X9UxxYRCXZo"))
 
 (provide 'eglot-grammarly)
 ;;; eglot-grammarly.el ends here
