@@ -29,6 +29,16 @@ Consider adding this to your configuration.
                        (require 'eglot-grammarly)
                        (call-interactively #'eglot))))
 ```
+If you use straight.el, you can also get this package directly from github.
+```el
+(use-package eglot-grammarly
+  :straight (:host github :repo "emacs-grammarly/eglot-grammarly")
+  :defer t  ; defer package loading
+  :hook ((text-mode markdown-mode). (lambda ()
+                                      (require 'eglot-grammarly)
+                                      (eglot-ensure))))
+```
+
 
 ## 🔧 Configuration
 
