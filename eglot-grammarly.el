@@ -1,6 +1,6 @@
 ;;; eglot-grammarly.el --- Eglot Clients for Grammarly  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2021-2022  Shen, Jen-Chieh
+;; Copyright (C) 2021-2023  Shen, Jen-Chieh
 ;; Created date 2021-03-04 11:34:54
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
