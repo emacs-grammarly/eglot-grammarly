@@ -2,6 +2,7 @@
 [![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/eglot-grammarly.svg)](https://jcs-emacs.github.io/jcs-elpa/#/eglot-grammarly)
 
 # eglot-grammarly
+> Eglot Clients for Grammarly
 
 [![CI](https://github.com/emacs-grammarly/eglot-grammarly/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-grammarly/eglot-grammarly/actions/workflows/test.yml)
 
