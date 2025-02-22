@@ -6,7 +6,7 @@
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; URL: https://github.com/emacs-grammarly/eglot-grammarly
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "24.3") (eglot "1.4"))
+;; Package-Requires: ((emacs "29.1") (eglot "1.4"))
 ;; Keywords: convenience eglot grammarly checker
 
 ;; This file is NOT part of GNU Emacs.
