@@ -41,7 +41,8 @@ Link: https://github.com/znck/grammarly"
   :link '(url-link "https://github.com/emacs-grammarly/eglot-grammarly"))
 
 (defcustom eglot-grammarly-active-modes
-  '(text-mode latex-mode org-mode markdown-mode)
+  '( text-mode latex-mode org-mode markdown-mode
+     message-mode mu4e-compose-mode)
   "List of major mode that work with Grammarly."
   :type 'list
   :group 'eglot-grammarly)
@@ -61,7 +62,7 @@ Link: https://github.com/znck/grammarly"
 
 (cl-defmethod eglot-initialization-options ((server eglot-grammarly-server))
   "Passes through required grammarly initialization options"
-    (list :clientId eglot-grammarly-client-id))
+  (list :clientId eglot-grammarly-client-id))
 
 (provide 'eglot-grammarly)
 ;;; eglot-grammarly.el ends here
